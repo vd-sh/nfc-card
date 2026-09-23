@@ -4,16 +4,20 @@ This is a PCB card featuring an integrated NFC antenna. I built this to replace 
 ## What is this?
 This is a PCB NFC Card designed around a custom 13.56MHz copper antenna loop. The card operates as a passive **Near Field Communication (NFC) transponder**. When brought near an active NFC reader (such as a smartphone or dedicated scanner), the integrated copper coil harvests electromagnetic energy over the air to power the onboard IC. Once energized, the chip modulates the field to transmit its stored data payload wirelessly, enabling data transfers, automated logic triggering, or wireless access authentication without requiring a battery.
 
-- Schematic:
+1] Schematic:
+
 ![schematic](Assets/Screenshot-2026-09-22-222913.png)
 
-- Raw PCB:
+2] Raw PCB:
+
 ![raw PCB](Assets/Screenshot-2026-09-23-174717.png)
 
-- 3D PCB (Black, Front):
+3] 3D PCB (Black, Front):
+
 ![3d pcb (black, front)](Assets/Screenshot-2026-09-23-180846.png)
 
-- 3D PCB (Black, Back):
+4] 3D PCB (Black, Back):
+
 ![3d pcb (black, back)](Assets/Screenshot-2026-09-23-181054.png)
 
 ## How to edit the source files and get your NFC PCB Card?
