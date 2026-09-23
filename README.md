@@ -20,13 +20,31 @@ This is a PCB NFC Card designed around a custom 13.56MHz copper antenna loop. Th
 
 ![3d pcb (black, back)](Assets/Screenshot-2026-09-23-181054.png)
 
+## Repository Structure
+
+```text
+nfc-card/
+|
+|---- Assets/----------------# Images and visual references for the project
+|            ----------------# (schematic diagrams, raw PCB renders, 3D PCB views)
+|
+|---- Hardware/--------------# Source design files for the PCB
+|              --------------# (EasyEDA schematics, PCB layout, Gerber files, etc)
+|
+|---- BOM.csv----------------# Bill of Materials
+|
+|---- LICENSE----------------# MIT License
+|
+|---- README.md--------------# Project documentation and instructions
+```
+
 ## How to edit the source files and get your NFC PCB Card?
 1. First, download the files or clone this repository
 2. Open the web interface or desktop client for EasyEDA Standard
-3. Go to File > Open > EasyEDA Standard Project.
-4. Select and import the files from this repository to load the schematics and PCB layout.
+3. Go to File > Open > EasyEDA Standard Project
+4. Select and import the files from this repository to load the schematics and PCB layout
 5. Hurray, edit your name and printables like a QR Code, etc you want on your silk layer (top and bottom), and export YOUR gerber.zip to JLCPCB to get a print!
-6. Once you get your card shipped to you. It can be written with a writing tool to make it fully functional.
+6. Once you get your card shipped to you. You can write in it with a writing tool to make it fully functional.
 7. You may also password-protect it to avoid overwriting. (Optional)
 
 ## Fabrication specs
