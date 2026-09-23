@@ -45,5 +45,5 @@ If you want to order a batch of these for yourself, here is the exact recipe to 
 ## Notes
 - Will update on how to use once I get my card shipped!
 - The card in the repo has less info due to privacy, but you may add whatever you like while editing the source PCB.
-- I hope y'all like this!
+- If y'all like this, you may love to see [Stardance- Luminator](https://github.com/vd-sh/luminator) and [Stardance- MP3 Player](https://github.com/vd-sh/mp3-player)
 - To see my latest projects, you may visit my [profile](https://github.com/vd-sh) :)
