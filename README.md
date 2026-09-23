@@ -1,5 +1,5 @@
 # nfc-card
-This is a PCB card featuring an integrated NFC antenna. I built this to replace traditional paper cards with a sleek piece of hardware that instantly shares a digital portfolio or contact info when tapped to a compatible device.
+This PCB card features an integrated NFC antenna. I built this to replace traditional paper cards with a sleek piece of hardware that instantly shares a digital portfolio or contact info when tapped to a compatible device.
 
 ## What is this?
 This is a PCB NFC Card designed around a custom 13.56MHz copper antenna loop. The card operates as a passive **Near Field Communication (NFC) transponder**. When brought near an active NFC reader (such as a smartphone or dedicated scanner), the integrated copper coil harvests electromagnetic energy over the air to power the onboard IC. Once energized, the chip modulates the field to transmit its stored data payload wirelessly, enabling data transfers, automated logic triggering, or wireless access authentication without requiring a battery.
@@ -25,17 +25,17 @@ This is a PCB NFC Card designed around a custom 13.56MHz copper antenna loop. Th
 ```text
 nfc-card/
 |
-|---- Assets/----------------# Images and visual references for the project
-|            ----------------# (schematic diagrams, raw PCB renders, 3D PCB views)
+|---- Assets/-------------# Images and visual references for the project
+|            -------------# (schematic diagrams, raw PCB renders, 3D PCB views)
 |
-|---- Hardware/--------------# Source design files for the PCB
-|              --------------# (EasyEDA schematics, PCB layout, Gerber files, etc)
+|---- Hardware/-----------# Source design files for the PCB
+|              -----------# (EasyEDA schematics, PCB layout, Gerber files, etc)
 |
-|---- BOM.csv----------------# Bill of Materials
+|---- BOM.csv-------------# Bill of Materials
 |
-|---- LICENSE----------------# MIT License
+|---- LICENSE-------------# MIT License
 |
-|---- README.md--------------# Project documentation and instructions
+|---- README.md-----------# Project documentation and instructions
 ```
 
 ## How to edit the source files and get your NFC PCB Card?
@@ -44,7 +44,7 @@ nfc-card/
 3. Go to File > Open > EasyEDA Standard Project
 4. Select and import the files from this repository to load the schematics and PCB layout
 5. Hurray, edit your name and printables like a QR Code, etc you want on your silk layer (top and bottom), and export YOUR gerber.zip to JLCPCB to get a print!
-6. Once you get your card shipped to you. You can write in it with a writing tool to make it fully functional.
+6. Once you get your card shipped to you. You can write on it with a writing tool to make it fully functional.
 7. You may also password-protect it to avoid overwriting. (Optional)
 
 ## Fabrication specs
