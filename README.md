@@ -29,7 +29,7 @@ nfc-card/
 |            -----------# (Schematic diagrams, Raw PCB renders, 3D PCB views, Fonts, etc)
 |
 |---- Hardware/---------# Source design files for the PCB
-|              ---------# (EasyEDA schematics, PCB layout, Gerber files, etc)
+|              ---------# (EasyEDA schematics, PCB layout, Gerber files, All PCBA Manufacturing Files)
 |
 |---- BOM.csv-----------# Bill of Materials
 |
@@ -55,7 +55,9 @@ If you want to order a batch of these for yourself, here is the exact recipe to 
 - Solder Mask: (You can choose your preferred color)
 - Silkscreen: White (Default) (Choose whatever contrasts well with your PCB color)
 - Finish: HASL
-- Via Covering: Via Plugged (Fills the antenna vias with black mask material to keep the surface relatively smooth)
+- Via Covering: Via Tented
+
+![jlcpcb cart](Assets/Screenshot-2026-09-25-015546.png)
 
 ## License
 [MIT](LICENSE) - Use, Modify, Share, etc as you like!
