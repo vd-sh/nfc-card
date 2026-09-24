@@ -57,7 +57,7 @@ If you want to order a batch of these for yourself, here is the exact recipe to 
 - Finish: HASL
 - Via Covering: Via Tented
 
-![jlcpcb cart](Assets/Screenshot-2026-09-25-015546.png)
+![jlcpcb cart](Assets/Screenshot-2026-09-25-025149.png)
 
 ## License
 [MIT](LICENSE) - Use, Modify, Share, etc as you like!
