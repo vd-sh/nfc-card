@@ -2,21 +2,21 @@
 This PCB card features an integrated NFC antenna. I built this to replace traditional paper cards with a sleek piece of hardware that instantly shares a digital portfolio or contact info when tapped to a compatible device.
 
 ## What is this?
-This is a PCB NFC Card designed around a custom 13.56MHz copper antenna loop. The card operates as a passive **Near Field Communication (NFC) transponder**. When brought near an active NFC reader (such as a smartphone or dedicated scanner), the integrated copper coil harvests electromagnetic energy over the air to power the onboard IC. Once energized, the chip modulates the field to transmit its stored data payload wirelessly, enabling data transfers, automated logic triggering, or wireless access authentication without requiring a battery.
+This is a PCB NFC Card designed around a custom 13.56MHz copper antenna loop. The card operates as a passive **Near Field Communication (NFC) transponder**. When brought near an active NFC reader (such as a smartphone or dedicated scanner), the integrated copper coil harvests electromagnetic energy to power the onboard IC. Once energized, the chip modulates the field to transmit its stored data payload wirelessly, enabling data transfers, automated logic triggering, or wireless access authentication without requiring a battery.
 
-1) Schematic:
+1) Schematic Image:
 
    <img src="Assets/Screenshot-2026-09-22-222913.png" width="300">
 
-2) Raw PCB:
+2) Raw PCB Image:
 
    <img src="Assets/Screenshot-2026-09-23-174717.png" width="300">
 
-3) 3D PCB (Black, Front):
+3) 3D PCB (Black, Front) Image:
 
    <img src="Assets/Screenshot-2026-09-23-180846.png" width="300">
 
-4) 3D PCB (Black, Back):
+4) 3D PCB (Black, Back) Image:
 
    <img src="Assets/Screenshot-2026-09-23-181054.png" width="300">
 
@@ -39,12 +39,15 @@ nfc-card/
 ```
 
 ## How to edit the source files and get your NFC PCB Card?
-1. First, download all the source files from the [Hardware](Hardware/) directory
+1. First, download all the source files from the [Hardware](Hardware/) directory (Only download the following)
+   - [BOM of components](Hardware/BOM_NFC-Card_2026-09-23.csv)
+   - [Schematic of PCB](Hardware/SCH_NFC-Card_2026-09-23.json)
+   - [PCB layout](Hardware/PCB_NFC-Card_2026-09-23.json)
 2. Open the web interface or desktop client for EasyEDA Standard
 3. Go to File > Open > EasyEDA Standard Project
 4. Select and import the files from this repository to load the schematics and PCB layout
 5. Hurray, edit your name and printables like a QR Code, etc you want on your silk layer (top and bottom), and export YOUR gerber.zip to JLCPCB (Or any fabricator) to get a print!
-6. Once you get your card shipped to you. You can write on it with a writing tool to make it fully functional. In my case, I am using a PN532 Module with a CP2102 USB 2.0 to TTL Converter for laptop compatibility.
+6. Once you get your card shipped to you. You can write on it with a writing tool to make it fully functional. In my case, I am using a PN532 Module with a CP2102 USB 2.0-to-TTL converter for laptop compatibility.
 7. You may also password-protect it to avoid overwriting. (Optional)
 
 ## Fabrication specs
@@ -75,11 +78,12 @@ If you want to order a batch of these for yourself, here is the exact recipe to 
 2) Amazon
 
     <img src="Assets/Screenshot-2026-09-28-005618.png" width="200">
+
 ## License
 [MIT](LICENSE) - Use, modify, share, etc. as you like!
 
 ## Notes
-- Will update on how to use once I get my card shipped!
+- Will update on how to use it once I get my card shipped!
 - The card in the repo has less info due to privacy, but you may add whatever you like while editing the source PCB.
 - If y'all like this, you may love to see [Stardance- Luminator](https://github.com/vd-sh/luminator) and [Stardance- MP3 Player](https://github.com/vd-sh/mp3-player)
 - To see my latest projects, you may visit my [profile](https://github.com/vd-sh) :)
