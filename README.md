@@ -29,7 +29,7 @@ nfc-card/
 |            -----------# (Schematic diagrams, Raw PCB renders, 3D PCB views, Fonts, etc)
 |
 |---- Hardware/---------# Source design files for the PCB
-|              ---------# (EasyEDA schematics, PCB layout, Gerber files, All PCBA Manufacturing Files)
+|              ---------# (EasyEDA schematics, PCB layout, Gerber files, all PCBA Manufacturing Files)
 |
 |---- BOM.csv-----------# Bill of Materials
 |
@@ -39,12 +39,12 @@ nfc-card/
 ```
 
 ## How to edit the source files and get your NFC PCB Card?
-1. First, download the files or clone this repository
+1. First, download all the source files from the [Hardware](Hardware/) directory
 2. Open the web interface or desktop client for EasyEDA Standard
 3. Go to File > Open > EasyEDA Standard Project
 4. Select and import the files from this repository to load the schematics and PCB layout
-5. Hurray, edit your name and printables like a QR Code, etc you want on your silk layer (top and bottom), and export YOUR gerber.zip to JLCPCB (Or any fabricator unit) to get a print!
-6. Once you get your card shipped to you. You can write on it with a writing tool to make it fully functional. In my case I am using PN532 Module with CP2102 USB 2.0 to TTL Converter for laptop compatibility.
+5. Hurray, edit your name and printables like a QR Code, etc you want on your silk layer (top and bottom), and export YOUR gerber.zip to JLCPCB (Or any fabricator) to get a print!
+6. Once you get your card shipped to you. You can write on it with a writing tool to make it fully functional. In my case, I am using a PN532 Module with a CP2102 USB 2.0 to TTL Converter for laptop compatibility.
 7. You may also password-protect it to avoid overwriting. (Optional)
 
 ## Fabrication specs
@@ -76,7 +76,7 @@ If you want to order a batch of these for yourself, here is the exact recipe to 
 
     <img src="Assets/Screenshot-2026-09-28-005618.png" width="200">
 ## License
-[MIT](LICENSE) - Use, Modify, Share, etc as you like!
+[MIT](LICENSE) - Use, modify, share, etc. as you like!
 
 ## Notes
 - Will update on how to use once I get my card shipped!
