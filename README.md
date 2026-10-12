@@ -60,7 +60,7 @@ If you want to order a batch of these for yourself, here is the exact recipe to 
 - Finish: HASL
 - Via Covering: Via Tented
 
-## [BOM](BOM.csv) as a table
+## [BOM]
 
 |Item                                                                  |Quantity|Price (USD)|Link                      |
 |----------------------------------------------------------------------|--------|-----------|--------------------------|
