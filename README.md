@@ -24,18 +24,11 @@ This is a PCB NFC Card designed around a custom 13.56MHz copper antenna loop. Th
 
 ```text
 nfc-card/
-|
-|---- Assets/-----------# Images and visual references for the project
-|            -----------# (Schematic diagrams, Raw PCB renders, 3D PCB views, Fonts, etc)
-|
-|---- Hardware/---------# Source design files for the PCB
-|              ---------# (EasyEDA schematics, PCB layout, Gerber files, all PCBA Manufacturing Files)
-|
-|---- BOM.csv-----------# Bill of Materials
-|
-|---- LICENSE-----------# MIT License
-|
-|---- README.md---------# Project documentation and instructions
+1] Assets/----> All the images and visual references of the project
+2] Hardware/--> Source design files
+3] BOM.csv----> Bill of materials
+4] LICENSE----> MIT License
+5] README.md --> Detailed project documentation and instructions
 ```
 
 ## How to edit the source files and get your NFC PCB Card?
