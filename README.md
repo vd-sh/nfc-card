@@ -62,20 +62,9 @@ If you want to order a batch of these for yourself, here is the exact recipe to 
 |CP2102 USB 2.0 to TTL UART Serial Converter Module (Includes Shipping)|1       |3.0        |https://amzn.in/d/03JLL8i2|
 |Total Amount                                                          |        |27.24      |                          |
 
-
-## Cart Images
-1) JLCPCB
-
-    ![jlcpcb cart](Assets/Screenshot-2026-09-25-025149.png)
-
-2) Amazon
-
-    <img src="Assets/Screenshot-2026-09-28-005618.png" width="200">
-
 ## License
 [MIT](LICENSE) - Use, modify, share, etc. as you like!
 
 ## Notes
-- Will update on how to use it once I get my card shipped!
 - The card in the repo has less info due to privacy, but you may add whatever you like while editing the source PCB.
 - To see my latest projects, you may visit my [profile](https://github.com/vd-sh) :)
