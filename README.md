@@ -53,8 +53,7 @@ If you want to order a batch of these for yourself, here is the exact recipe to 
 - Finish: HASL
 - Via Covering: Via Tented
 
-## [BOM]
-
+## [BOM](BOM.csv) as a table
 |Item                                                                  |Quantity|Price (USD)|Link                      |
 |----------------------------------------------------------------------|--------|-----------|--------------------------|
 |2 Layer PCB (Includes Shipping)                                       |10       |19.24      |https://jlcpcb.com                |
