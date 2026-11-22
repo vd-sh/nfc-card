@@ -1,5 +1,5 @@
 # nfc-card
-This is a sleek, matte black PCB card featuring an integrated NFC antenna for portfolios.
+This is a sleek, matte black PCB card featuring an integrated NFC.
 
 ## What is this?
 This is a PCB NFC Card designed around a custom 13.56MHz copper antenna loop. The card operates as a passive **Near Field Communication (NFC) transponder**. When brought near an active NFC reader (such as a smartphone or dedicated scanner), the integrated copper coil harvests electromagnetic energy to power the onboard IC. Once energized, the chip modulates the field to transmit its stored data payload wirelessly, enabling data transfers, automated logic triggering, or wireless access authentication without requiring a battery.
